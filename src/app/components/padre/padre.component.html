@@ -1,0 +1,8 @@
+<div class="contenedor">
+  <h2 class="text-center">{{nombre}}</h2>
+  <div class="contendor-flex">
+    <app-hijo  *ngFor="let user of cards"  [data]="user"
+     (addToCard)="cambio($event)"></app-hijo>
+  </div>
+</div>
+

@@ -1,0 +1,9 @@
+.contenedor{
+  padding: 1.5rem;
+  .contendor-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}
