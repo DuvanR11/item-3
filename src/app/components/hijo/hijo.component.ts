@@ -8,7 +8,7 @@ import { ICards } from 'src/app/interfaces/images.interface';
   styleUrls: ['./hijo.component.scss']
 })
 export class HijoComponent implements OnInit {
-  @Input('data') user: any;
+  @Input('data') user!: ICards;;
   @Output() addToCard = new EventEmitter<ICards>();
 
   constructor() { }

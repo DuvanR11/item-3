@@ -12,12 +12,14 @@ import { HttpClientModule } from '@angular/common/http';
 // Modulos Material
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { CortarPipe } from './components/hijo/cortar.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HijoComponent,
-    PadreComponent
+    PadreComponent,
+    CortarPipe
   ],
   imports: [
     BrowserModule,
