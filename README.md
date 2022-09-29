@@ -1,3 +1,7 @@
+-item3 (Input, Output)
+Para esta Aplicación debera encender un api quemada con el comando 
+( npm run serverAPI) y en otra terminal el ( npm start)
+
 # Prueba
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
